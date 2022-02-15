@@ -1,7 +1,7 @@
 class PostsController < ApplicationController
 
     def index
-        @places = Place.all
+        @posts = Post.all
     end
 
     def show
@@ -12,5 +12,5 @@ class PostsController < ApplicationController
 
     def create
     end
-    
+
 end
