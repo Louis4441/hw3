@@ -1,5 +1,8 @@
 <%= form_with model: @place do |form| %>
-    <%= form.label "name" %>
+    <%= form.label "name:" %>
     <%= form.text_field "name" %>
 <%= form.submit %>
 <% end %>
+
+<br>
+<a href="/places">Back to Places</a>
