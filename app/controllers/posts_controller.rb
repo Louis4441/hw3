@@ -1,5 +1,7 @@
 class PostsController < ApplicationController
 
+    # show isn't required and not in use
+    # I just used it to experiment and thought I'd leave it in
     def show
         @post = Post.find(params["id"])
     end
